@@ -2,6 +2,7 @@ package ru.netology.service;
 
 import org.junit.jupiter.api.Test;
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CashbackHackServiceTest {
@@ -32,4 +33,5 @@ class CashbackHackServiceTest {
         int expected = 999;
         assertEquals(expected, actual);
     }
+
 }
